@@ -8,9 +8,9 @@ a {
   text-decoration: none;
 }
 .clearfix::after {
-  content:"";
-  display:block;
-  clear:both;
+  content: "";
+  display: block;
+  clear: both;
 }
 header {
   width: 90%;
@@ -19,7 +19,7 @@ header {
   text-align: center;
 }
 /* クラス名headerのタグ内のh1にのみ適応される */
-header .headline{
+header .headline {
   font-size: 32px;
 }
 .nav-list {
@@ -39,10 +39,10 @@ header .headline{
   background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
   background-position: center; /* 背景画像を中央に配置 */
 }
-.main-visual-content{
+.main-visual-content {
   width: 40%;
   height: 300px; /* 親の高さに揃える */
-  background-color: rgba( 0, 0, 0, 0.5); /* 背景色を半透明の黒にする */
+  background-color: rgba(0, 0, 0, 0.5); /* 背景色を半透明の黒にする */
   text-align: center; /* 文字を中央揃えにする */
   padding-top: 105px; /* 上側の内側余白で垂直方向の位置を調整 */
 }
@@ -65,7 +65,7 @@ header .headline{
 .sidebar {
   width: 240px;
   height: 1400px;
-  float: left;　/* 要素を左揃えで並べる */
+  float: left; /* 要素を左揃えで並べる */
 }
 footer {
   width: 100%;
