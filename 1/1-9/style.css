@@ -63,13 +63,35 @@ main {
 }
 
 .box-title {
-  font-size: 16px;
   padding: 15px 0 5px;
+  font-size: 18.72px;
 }
 .box-text {
-  font-size: 12px;
+  font-size: 16px;
 }
 footer {
   height: 50px;
   background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  .box {
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+  }
+  .box:nth-child(1),
+  .box:nth-child(2) {
+    width: 90%;
+    margin: 0px auto 20px auto;
+  }
+  footer {
+    width: 100%;
+  }
 }
