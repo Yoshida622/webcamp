@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* a {
+  text-decoration: none;
+} */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ヘッダーの始まり */
+
+.header {
+  background-color: #ec715f;
+}
+nav {
+  height: 70px;
+  width: 1024px;
+  margin: 0 auto;
+}
+.nav-logo {
+  height: 70px;
+  float: left;
+}
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list-item {
+  float: right;
+  color: #fafafa;
+  font-size: 16px;
+  padding: 0 30px;
+  line-height: 70px;
+}
+.nav-list-item-i {
+  height: 0px;
+  width: 0px;
+  float: right;
+  color: #fafafa;
+  margin: 0px 0;
+  border: 0px solid #fafafa;
+  text-align: center;
+}
+.nav-list-item-i i {
+  line-height: 0px;
+  font-size: 0x;
+}
+.fa-bars:before {
+  content: "";
+}
+
+/* メインビジュアルの始まり */
+
+.main-visual {
+  height: 650px;
+  color: #fafafa;
+  background-image: url(img/mv.png);
+  background-position: center;
+  background-size: cover;
+}
+.main-visual-container {
+  text-align: center;
+}
+.main-visual-title {
+  padding: 200px 0 10px 0;
+  font-size: 62px;
+}
+.main-visual-text {
+  font-size: 20px;
+}
+
+/* ポートフォリオの始まり */
+
+.Portfolio {
+  background-color: #eceff1;
+  padding: 90px 0px;
+}
+.Portfolio-container {
+  width: 920px;
+  margin: 0 auto;
+  text-align: center;
+}
+.Portfolio-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.Portfolio-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  margin: 8px auto 0;
+  height: 3px;
+  background-color: #ec715f;
+}
+.Portfolio-text {
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000000;
+}
+.Portfolio-box {
+  float: left;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.Portfolio-box:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+}
+.Portfolio-box:nth-child(2) {
+  background-image: url(img/websuku.png);
+}
+.Portfolio-box:nth-child(3) {
+  background-image: url(img/write.jpg);
+}
+.Portfolio-box:nth-child(4) {
+  background-image: url(img/webcamp.png);
+}
+.Portfolio-box:nth-child(5) {
+  background-image: url(img/talk.jpg);
+}
+.Portfolio-box:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+}
+.Portfolio-box:nth-child(1),
+.Portfolio-box:nth-child(2),
+.Portfolio-box:nth-child(4),
+.Portfolio-box:nth-child(5) {
+  margin: 0 10px 10px 0;
+}
+
+/* フィーチャーの始まり */
+
+.Feature {
+  padding: 90px 0px;
+}
+.Feature-container {
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+.Feature-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.Feature-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  margin: 8px auto 0;
+  height: 3px;
+  background-color: #ec715f;
+}
+.Feature-text {
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000000;
+}
+
+.Feature-box {
+  float: left;
+  width: 320px;
+  text-align: start;
+}
+.Feature-box:nth-child(1),
+.Feature-box:nth-child(2) {
+  margin-right: 10px;
+}
+.Feature-box-i {
+  text-align: center;
+}
+.fa-angle-double-left {
+  font-size: 60px;
+}
+.Feature-box-title {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+  text-align: center;
+}
+.Feature-box-text {
+  font-size: 16px;
+  color: #000000;
+}
+
+/* プロファイルの始まり */
+
+.Profile {
+  padding: 90px 0px;
+  background-color: #eceff1;
+}
+.Profile-container {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+.Profile-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.Profile-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  margin: 8px auto 0;
+  height: 3px;
+  background-color: #ec715f;
+}
+.Profile-text {
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000000;
+}
+.Profile-box-detail {
+  float: left;
+  width: 512px;
+  text-align: center;
+}
+.Profile-box-detail:nth-child(2) {
+  text-align: start;
+}
+.Profile-box-detail-img {
+  display: inline-block;
+  border-radius: 50%;
+}
+.Profile-box-detail-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.Profile-box-detail-text-1 {
+  padding-bottom: 20px;
+  font-size: 16px;
+  color: #000000;
+}
+.Profile-box-detail-title-2 {
+  font-size: 16px;
+  color: #000000;
+}
+
+/* コンタクトの始まり */
+
+.Contact {
+  padding: 90px 0px;
+}
+.Contact-container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.Contact-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.Contact-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  margin: 8px auto 0;
+  height: 3px;
+  background-color: #ec715f;
+}
+.Contact-text {
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000000;
+}
+.Contact-box {
+  float: left;
+  width: 400px;
+  text-align: start;
+}
+.Contact-box-container-1 {
+  width: 130px;
+  margin: 0 auto;
+}
+.Contact-box-container-2 {
+  width: 180px;
+  margin: 0 auto;
+}
+.Contact-box-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.Contact-box-text-1 {
+  margin-bottom: 20px;
+}
+.Contact-box-text-a {
+  color: #000000;
+}
+
+.Contact-box-i i {
+  font-size: 50px;
+}
+.Contact-box-i i:nth-child(1) {
+  margin-right: 20px;
+}
+.Contact-box-i i:nth-child(2) {
+  margin-right: 20px;
+}
+/* フッターの始まり */
+
+.footer {
+  height: 60px;
+  background-color: #ec715f;
+  text-align: center;
+}
+.small {
+  font-size: 16px;
+  color: #fafafa;
+  line-height: 60px;
+}
+
+/* レスポンシブ対応の始まり */
+@media screen and (max-width: 767px) {
+  /* ヘッダーの始まり */
+  nav {
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .nav-list {
+    list-style-type: none;
+  }
+  .nav-logo {
+    height: 50px;
+  }
+  .nav-list-item {
+    float: right;
+    color: #fafafa;
+    font-size: 0;
+    padding: 0;
+    line-height: 0;
+  }
+
+  .nav-list-item-i {
+    height: 40px;
+    width: 40px;
+    float: right;
+    color: #fafafa;
+    margin: 5px 0;
+    border: 1px solid #fafafa;
+    text-align: center;
+  }
+  .nav-list-item-i i {
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .fa-bars:before {
+    content: "\f0c9";
+  }
+  /* メインビジュアルの始まり */
+  .main-visual {
+    color: #fafafa;
+    background-image: url(img/code.png);
+    background-size: cover;
+  }
+  .main-visual-container {
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+  }
+  .main-visual-title {
+    padding: 200px 0 10px 0;
+    font-size: 40px;
+  }
+  .main-visual-text {
+    font-size: 18px;
+  }
+  /* ポートフォリオの始まり */
+  .Portfolio-container {
+    width: 90%;
+  }
+  .Portfolio-box {
+    float: none;
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+  }
+  .Portfolio-box:nth-child(1),
+  .Portfolio-box:nth-child(3),
+  .Portfolio-box:nth-child(5) {
+    width: 0px;
+    height: 0px;
+  }
+  .Portfolio-box:nth-child(2) {
+    background-image: url(img/websuku.png);
+  }
+
+  .Portfolio-box:nth-child(4) {
+    background-image: url(img/webcamp.png);
+  }
+
+  .Portfolio-box:nth-child(6) {
+    background-image: url(img/webcamp-mother.png);
+  }
+
+  .Portfolio-box:nth-child(2),
+  .Portfolio-box:nth-child(4) {
+    margin: 0 auto 10px auto;
+  }
+  .Portfolio-box:nth-child(6) {
+    margin: 0 auto 0 auto;
+  }
+
+  /* フィーチャーの始まり */
+  .Feature-container {
+    width: 90%;
+  }
+  .Feature-box {
+    float: none;
+  }
+  .Feature-box:nth-child(1),
+  .Feature-box:nth-child(2) {
+    margin: 0 auto 10px auto;
+  }
+  .Feature-box:nth-child(3) {
+    margin: 0 auto;
+  }
+  /* プロファイルの始まり */
+  .Profile-container {
+    width: 90%;
+  }
+  .Profile-box-detail {
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+  .Profile-box-detail:nth-child(2) {
+    text-align: center;
+  }
+  .Profile-box-detail-title:nth-child(1) {
+    padding-top: 20px;
+  }
+  /* コンタクトの始まり */
+  .Contact-container {
+    width: 90%;
+  }
+  .Contact-box {
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+  .Contact-box-text-2 {
+    margin-bottom: 20px;
+  }
+  .Contact-box-i i:nth-child(1) {
+    margin-right: 8px;
+  }
+  .Contact-box-i i:nth-child(2) {
+    margin-right: 8px;
+  }
+}
